@@ -56,5 +56,5 @@ def evaluate_expr_safely(expr):
         return f'Invalid expression = {expr}'
     
 
-expr = "-3 + 4"
+expr = "3 + 4"
 print(evaluate_expr_safely(expr))
